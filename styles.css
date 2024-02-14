@@ -1,0 +1,60 @@
+
+body {
+	font-family: "Arial", sans-serif;
+	margin-top: 20px;
+}
+
+img {
+	height: 250px; 
+	width: 170px;
+}
+
+.navbar {
+	box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	background-color: #ecce8dd7;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+
+.btn {
+	background-color: #ecce8dd7;
+}
+
+.row {
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	padding:20px;
+	margin:20px;
+}
+
+.display-4 {
+	font-family: "Protest Riot", sans-serif;
+}
+
+.card {
+	width: 400px;
+	margin: 20px;
+	padding: 10px;
+}
+
+footer {
+	background-color: #f8f9fa;
+	padding: 20px 0;
+	box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+}
+
+footer a {
+	color: #007bff; /* Bootstrap primary color */
+}
+
+/* Utility classes */
+.text-muted {
+	color: #6c757d!important; /* Bootstrap muted text color */
+}
+
+/* Adjustments for small screens */
+@media (max-width: 576px) {
+	.jumbotron {
+			padding: 2rem 1rem; /* Smaller padding on small devices */
+	}
+}
